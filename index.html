@@ -112,6 +112,16 @@
         width: 100%;
       }
 
+      .profile-photo {
+        display: block;
+        width: 142px;
+        height: 182px;
+        margin: 0 auto 26px;
+        border-radius: 6px;
+        object-fit: cover;
+        object-position: center;
+      }
+
       h1,
       h2,
       h3,
@@ -202,13 +212,29 @@
         margin-top: 22px;
       }
 
-      .bibliography {
+      .publication-source {
+        margin-bottom: 28px;
+        color: var(--muted);
+        text-align: center;
+        font-size: 14px;
+      }
+
+      h2.bibliography {
+        margin: 34px 0 14px;
+        padding: 0;
+        text-align: left;
+        font-size: 20px;
+      }
+
+      ol.bibliography,
+      ul.bibliography {
         margin: 0;
         padding: 0;
         list-style: none;
       }
 
-      .bibliography li {
+      ol.bibliography li,
+      ul.bibliography li {
         margin: 0 0 22px;
         padding-bottom: 22px;
         border-bottom: 1px solid var(--line);
@@ -262,6 +288,10 @@
           margin-bottom: 30px;
         }
 
+        .profile-photo {
+          width: 124px;
+          height: 159px;
+        }
       }
     </style> <script>
       (function () {
@@ -269,7 +299,7 @@
         var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
         document.documentElement.setAttribute("data-theme", theme);
       })();
-    </script> </head> <body> <div class="site"> <div class="theme-toggle" aria-label="Theme"> <button type="button" data-theme-choice="light">LIGHT</button> <button type="button" data-theme-choice="dark">DARK</button> </div> <header> <p class="site-title"><a href="/">Jae-Hong Lee</a></p> </header> <main> <div class="identity"> <p class="role">Assistant Professor</p> <p>Division of Language &amp; AI</p> <p>Hankuk University of Foreign Studies, Seoul, South Korea</p> </div> <div class="intro"> <p> Jae-Hong Lee received the B.S. degree in electronic engineering from Hanyang University, Seoul, South Korea, in 2017, and the M.S. and Ph.D. degrees in electronics engineering from Hanyang University, Seoul, South Korea, in 2024. </p> <p> He is currently an Assistant Professor in the Division of Language &amp; AI at Hankuk University of Foreign Studies, Seoul, South Korea. </p> <p> His research interests include <strong>signal processing and machine learning</strong> applications for <strong>time-varying data</strong> such as speech, audio, video, text, and time series, with an emphasis on <strong>dynamical systems</strong>, <strong>probability</strong>, and <strong>optimization</strong>. </p> </div> <div class="contact"> <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p> <p><strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies, 107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea</p> </div> </main> <footer> Copyright 2026 Jae-Hong Lee. All rights reserved. </footer> </div> <script>
+    </script> </head> <body> <div class="site"> <div class="theme-toggle" aria-label="Theme"> <button type="button" data-theme-choice="light">LIGHT</button> <button type="button" data-theme-choice="dark">DARK</button> </div> <header> <p class="site-title"><a href="/">Jae-Hong Lee</a></p> <nav class="nav" aria-label="Main navigation"> <a href="/" class="active"> Home </a> <a href="/publications/"> Publications </a> </nav> </header> <main> <p><img class="profile-photo" src="/assets/img/prof.png" alt="Jae-Hong Lee"></p> <div class="identity"> <p class="role">Assistant Professor</p> <p>Division of Language &amp; AI</p> <p>Hankuk University of Foreign Studies, Seoul, South Korea</p> </div> <div class="intro"> <p> Jae-Hong Lee received the B.S. degree in electronic engineering from Hanyang University, Seoul, South Korea, in 2017, and the M.S. and Ph.D. degrees in electronics engineering from Hanyang University, Seoul, South Korea, in 2024. </p> <p> He is currently an Assistant Professor in the Division of Language &amp; AI at Hankuk University of Foreign Studies, Seoul, South Korea. </p> <p> His research interests include <strong>signal processing and machine learning</strong> applications for <strong>time-varying data</strong> such as speech, audio, video, text, and time series, with an emphasis on <strong>dynamical systems</strong>, <strong>probability</strong>, and <strong>optimization</strong>. </p> </div> <div class="contact"> <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p> <p><strong>Google Scholar</strong>: <a href="https://scholar.google.com/citations?user=tZmWk14AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">profile</a></p> <p><strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies, 107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea</p> </div> </main> <footer> Copyright 2026 Jae-Hong Lee. All rights reserved. </footer> </div> <script>
       (function () {
         var current = document.documentElement.getAttribute("data-theme");
         var buttons = document.querySelectorAll("[data-theme-choice]");
