@@ -88,11 +88,15 @@
         color: var(--fg);
       }
 
+      header {
+        margin-bottom: 38px;
+      }
+
       .nav {
         display: flex;
         justify-content: center;
         gap: 18px;
-        margin-bottom: 38px;
+        margin-bottom: 0;
         font-size: 14px;
       }
 
@@ -166,6 +170,22 @@
         text-align: left;
       }
 
+      .identity {
+        margin: 0 0 30px;
+        text-align: center;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .identity p {
+        margin-bottom: 4px;
+      }
+
+      .identity .role {
+        color: var(--fg);
+        font-weight: 600;
+      }
+
       .links {
         margin: 22px 0 30px;
         text-align: center;
@@ -176,6 +196,18 @@
       .links a {
         margin: 0 6px;
         white-space: nowrap;
+      }
+
+      .contact {
+        margin-top: 28px;
+        padding-top: 22px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .contact p {
+        margin-bottom: 8px;
       }
 
       .news-list {
@@ -281,7 +313,7 @@
         var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
         document.documentElement.setAttribute("data-theme", theme);
       })();
-    </script> </head> <body> <div class="site"> <div class="theme-toggle" aria-label="Theme"> <button type="button" data-theme-choice="light">LIGHT</button> <button type="button" data-theme-choice="dark">DARK</button> </div> <header> <p class="site-title"><a href="/">Jae-Hong Lee</a></p> <nav class="nav" aria-label="Main navigation"> <a href="/"> Home </a> <a href="/publications/" class="active"> Publications </a> <a href="/group/"> Group </a> </nav> </header> <main> <h1 id="publications">Publications</h1> <p>Replace <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> with real BibTeX entries when the publication list is ready.</p> <div class="publications"> <h2 class="bibliography">2026</h2> <ol class="bibliography"><li> <div class="row"> <div id="placeholder2026" class="col-sm-10"> <div class="title">Placeholder Publication Title</div> <div class="author"> Professor Name and A. Collaborator </div> <div class="periodical"> <em>Conference or Journal Name</em>, 2026 </div> <div class="periodical"> Replace this entry with a real BibTeX record </div> <div class="links"> </div> </div> </div> </li></ol> </div> </main> <footer> Copyright 2026 Jae-Hong Lee. All rights reserved. </footer> </div> <script>
+    </script> </head> <body> <div class="site"> <div class="theme-toggle" aria-label="Theme"> <button type="button" data-theme-choice="light">LIGHT</button> <button type="button" data-theme-choice="dark">DARK</button> </div> <header> <p class="site-title"><a href="/">Jae-Hong Lee</a></p> </header> <main> <h1 id="publications">Publications</h1> <p>Publications will be added after the bibliography is finalized.</p> </main> <footer> Copyright 2026 Jae-Hong Lee. All rights reserved. </footer> </div> <script>
       (function () {
         var current = document.documentElement.getAttribute("data-theme");
         var buttons = document.querySelectorAll("[data-theme-choice]");
