@@ -7,18 +7,23 @@ nav: true
 nav_order: 1
 ---
 
-<div class="home-photo" aria-label="Profile photo placeholder"></div>
+<div class="identity">
+  <p class="role">Assistant Professor</p>
+  <p>Division of Language &amp; AI</p>
+  <p>Hankuk University of Foreign Studies, Seoul, South Korea</p>
+</div>
 
 <div class="intro">
   <p>
-    Jae-Hong Lee is an Assistant Professor in the
-    <a href="#">Division of Language &amp; AI</a> at
-    <a href="#">Hankuk University of Foreign Studies</a>, Seoul, South Korea.
+    Jae-Hong Lee received the B.S. degree in electronic engineering from
+    Hanyang University, Seoul, South Korea, in 2017, and the M.S. and Ph.D.
+    degrees in electronics engineering from Hanyang University, Seoul, South
+    Korea, in 2024.
   </p>
 
   <p>
-    He received the B.S. degree in electronic engineering from Hanyang University in 2017,
-    and the M.S. and Ph.D. degrees in electronics engineering from Hanyang University in 2024.
+    He is currently an Assistant Professor in the Division of Language &amp; AI
+    at Hankuk University of Foreign Studies, Seoul, South Korea.
   </p>
 
   <p>
@@ -29,25 +34,7 @@ nav_order: 1
   </p>
 </div>
 
-<p class="links">
-  <a href="mailto:ljh93ljh@hufs.ac.kr">Email</a>
-  <a href="#">Google Scholar</a>
-  <a href="#">CV</a>
-</p>
-
-<p>
-  <strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies,
-  107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea
-</p>
-
-## Recent News
-
-<div class="news-list">
-  {% assign news_items = site.news | sort: "date" | reverse %}
-  {% for item in news_items limit: 5 %}
-    <article class="news-item">
-      <div class="news-date">{{ item.date | date: "%b %Y" }}</div>
-      <div class="news-text">{{ item.content }}</div>
-    </article>
-  {% endfor %}
+<div class="contact">
+  <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p>
+  <p><strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies, 107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea</p>
 </div>

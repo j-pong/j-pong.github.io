@@ -101,11 +101,15 @@
         color: var(--fg);
       }
 
+      header {
+        margin-bottom: 38px;
+      }
+
       .nav {
         display: flex;
         justify-content: center;
         gap: 18px;
-        margin-bottom: 38px;
+        margin-bottom: 0;
         font-size: 14px;
       }
 
@@ -179,6 +183,22 @@
         text-align: left;
       }
 
+      .identity {
+        margin: 0 0 30px;
+        text-align: center;
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .identity p {
+        margin-bottom: 4px;
+      }
+
+      .identity .role {
+        color: var(--fg);
+        font-weight: 600;
+      }
+
       .links {
         margin: 22px 0 30px;
         text-align: center;
@@ -189,6 +209,18 @@
       .links a {
         margin: 0 6px;
         white-space: nowrap;
+      }
+
+      .contact {
+        margin-top: 28px;
+        padding-top: 22px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .contact p {
+        margin-bottom: 8px;
       }
 
       .news-list {
@@ -306,8 +338,9 @@
 
       <header>
         <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
-        <nav class="nav" aria-label="Main navigation">
-          {% assign nav_pages = site.pages | where_exp: "item", "item.nav == true" | sort: "nav_order" %}
+        {% assign nav_pages = site.pages | where_exp: "item", "item.nav == true" | sort: "nav_order" %}
+        {% if nav_pages.size > 1 %}
+          <nav class="nav" aria-label="Main navigation">
           {% for nav_page in nav_pages %}
             <a
               href="{{ nav_page.url | relative_url }}"
@@ -316,7 +349,8 @@
               {{ nav_page.nav_title | default: nav_page.title | capitalize }}
             </a>
           {% endfor %}
-        </nav>
+          </nav>
+        {% endif %}
       </header>
 
       <main>
