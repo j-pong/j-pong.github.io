@@ -125,6 +125,16 @@
         width: 100%;
       }
 
+      .profile-photo {
+        display: block;
+        width: 142px;
+        height: 182px;
+        margin: 0 auto 26px;
+        border-radius: 6px;
+        object-fit: cover;
+        object-position: center;
+      }
+
       h1,
       h2,
       h3,
@@ -215,13 +225,29 @@
         margin-top: 22px;
       }
 
-      .bibliography {
+      .publication-source {
+        margin-bottom: 28px;
+        color: var(--muted);
+        text-align: center;
+        font-size: 14px;
+      }
+
+      h2.bibliography {
+        margin: 34px 0 14px;
+        padding: 0;
+        text-align: left;
+        font-size: 20px;
+      }
+
+      ol.bibliography,
+      ul.bibliography {
         margin: 0;
         padding: 0;
         list-style: none;
       }
 
-      .bibliography li {
+      ol.bibliography li,
+      ul.bibliography li {
         margin: 0 0 22px;
         padding-bottom: 22px;
         border-bottom: 1px solid var(--line);
@@ -275,6 +301,10 @@
           margin-bottom: 30px;
         }
 
+        .profile-photo {
+          width: 124px;
+          height: 159px;
+        }
       }
     </style>
     <script>

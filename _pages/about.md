@@ -7,6 +7,8 @@ nav: true
 nav_order: 1
 ---
 
+<img class="profile-photo" src="{{ '/assets/img/prof.png' | relative_url }}" alt="Jae-Hong Lee">
+
 <div class="identity">
   <p class="role">Assistant Professor</p>
   <p>Division of Language &amp; AI</p>
@@ -36,5 +38,6 @@ nav_order: 1
 
 <div class="contact">
   <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p>
+  <p><strong>Google Scholar</strong>: <a href="https://scholar.google.com/citations?user=tZmWk14AAAAJ&amp;hl=en">profile</a></p>
   <p><strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies, 107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea</p>
 </div>
