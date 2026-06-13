@@ -32,6 +32,5 @@ nav_order: 2
 
 <div class="contact">
   <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p>
-  <p><strong>Google Scholar</strong>: <a href="https://scholar.google.com/citations?user=tZmWk14AAAAJ&amp;hl=en">profile</a></p>
   <p><strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies, 107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea</p>
 </div>

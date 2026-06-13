@@ -17,19 +17,16 @@ nav_order: 1
 
 <div class="intro">
   <p>
-    His research interests include <strong>signal processing and machine learning</strong>
-    applications for <strong>time-varying data</strong> such as speech, audio, video, text,
-    and time series, with an emphasis on <strong>dynamical systems</strong>,
-    <strong>probability</strong>, and <strong>optimization</strong>.
+    <a class="intro-link" href="{{ '/about/' | relative_url }}" aria-label="Read more about Jae-Hong Lee">
+      His research interests include <strong>signal processing and machine learning</strong>
+      applications for <strong>time-varying data</strong> such as speech, audio, video, text,
+      and time series, with an emphasis on <strong>dynamical systems</strong>,
+      <strong>probability</strong>, and <strong>optimization</strong>.
+    </a>
   </p>
 </div>
 
-<p class="details-link">
-  <a href="{{ '/about/' | relative_url }}">About</a>
-</p>
-
 <div class="contact">
   <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p>
-  <p><strong>Google Scholar</strong>: <a href="https://scholar.google.com/citations?user=tZmWk14AAAAJ&amp;hl=en">profile</a></p>
   <p><strong>Office</strong>: Rm 401, Faculty Building, Hankuk University of Foreign Studies, 107, Imun-ro, Dongdaemun-gu, Seoul, Republic of Korea</p>
 </div>
