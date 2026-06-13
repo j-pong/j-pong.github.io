@@ -1,21 +1,27 @@
 ---
 layout: minimal
-title: home
-nav_title: Home
-permalink: /
+permalink: /about/
+title: about
+nav_title: About
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
-<img class="profile-photo" src="{{ '/assets/img/prof.png' | relative_url }}" alt="Jae-Hong Lee">
-
-<div class="identity">
-  <p class="role">Assistant Professor</p>
-  <p>Division of Language &amp; AI</p>
-  <p>Hankuk University of Foreign Studies, Seoul, South Korea</p>
-</div>
+# About
 
 <div class="intro">
+  <p>
+    Jae-Hong Lee received the B.S. degree in electronic engineering from
+    Hanyang University, Seoul, South Korea, in 2017, and the M.S. and Ph.D.
+    degrees in electronics engineering from Hanyang University, Seoul, South
+    Korea, in 2024.
+  </p>
+
+  <p>
+    He is currently an Assistant Professor in the Division of Language &amp; AI
+    at Hankuk University of Foreign Studies, Seoul, South Korea.
+  </p>
+
   <p>
     His research interests include <strong>signal processing and machine learning</strong>
     applications for <strong>time-varying data</strong> such as speech, audio, video, text,
@@ -23,10 +29,6 @@ nav_order: 1
     <strong>probability</strong>, and <strong>optimization</strong>.
   </p>
 </div>
-
-<p class="details-link">
-  <a href="{{ '/about/' | relative_url }}">About</a>
-</p>
 
 <div class="contact">
   <p><strong>Email</strong>: <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a></p>
