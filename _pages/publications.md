@@ -9,11 +9,6 @@ nav_order: 3
 
 # Publications
 
-<p class="publication-source">
-  Publication list based on <a href="https://scholar.google.com/citations?user=tZmWk14AAAAJ&amp;hl=en">Google Scholar</a>
-  and recent acceptance/publication records.
-</p>
-
 <div class="publications">
 {% bibliography %}
 </div>
