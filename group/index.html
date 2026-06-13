@@ -321,7 +321,7 @@
         var theme = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
         document.documentElement.setAttribute("data-theme", theme);
       })();
-    </script> </head> <body> <div class="site"> <div class="theme-toggle" aria-label="Theme"> <button type="button" data-theme-choice="light">LIGHT</button> <button type="button" data-theme-choice="dark">DARK</button> </div> <header> <p class="site-title"><a href="/">Jae-Hong Lee</a></p> <nav class="nav" aria-label="Main navigation"> <a href="/"> Home </a> <a href="/about/"> About </a> <a href="/publications/"> Publications </a> </nav> </header> <main> <h1 id="group">Group</h1> <p>Group information will be added after the member list is finalized.</p> </main> <footer> Copyright 2026 Jae-Hong Lee. All rights reserved. </footer> </div> <script>
+    </script> </head> <body> <div class="site"> <div class="theme-toggle" aria-label="Theme"> <button type="button" data-theme-choice="light">LIGHT</button> <button type="button" data-theme-choice="dark">DARK</button> </div> <header> <p class="site-title"><a href="/">Jae-Hong Lee</a></p> <nav class="nav" aria-label="Main navigation"> <a href="/"> Home </a> <a href="/about/"> About </a> <a href="/publications/"> Publications </a> <a href="/group/" class="active"> Group </a> </nav> </header> <main> <h1 id="group">Group</h1> <h2 id="undergraduate-interns">Undergraduate Interns</h2> <ul> <li>Jae-Won Choi</li> <li>Jina Kang</li> </ul> </main> <footer> Copyright 2026 Jae-Hong Lee. All rights reserved. </footer> </div> <script>
       (function () {
         var current = document.documentElement.getAttribute("data-theme");
         var buttons = document.querySelectorAll("[data-theme-choice]");
