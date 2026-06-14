@@ -1,0 +1,4 @@
+{% assign conference_entries = 'inproceedings,incollection' | split: ',' %}
+{% if conference_entries contains entry.type %}
+  {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
+{% endif %}
