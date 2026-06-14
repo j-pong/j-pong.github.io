@@ -353,6 +353,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year, month, sort_venue, title
+  order: descending, descending, ascending, ascending
   group_by: year
   group_order: descending
 
@@ -390,7 +392,9 @@ filtered_bibtex_keywords:
     preview,
     selected,
     slides,
+    sort_venue,
     supp,
+    month,
     video,
     website,
   ]
