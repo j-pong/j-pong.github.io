@@ -1,11 +1,11 @@
 ---
 layout: minimal
 permalink: /join/
-title: 학생 모집 안내
+title: 연구실 지원안내
 nav: false
 ---
 
-# 학생 모집 안내
+# 연구실 지원안내
 
 <div class="intro">
   <p>

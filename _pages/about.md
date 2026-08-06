@@ -26,8 +26,8 @@ nav_order: 1
   </p>
 </div>
 
-<a class="recruitment-notice" href="{{ '/join/' | relative_url }}" aria-label="학생 모집 상세 안내">
-  <span class="recruitment-notice-label">학생 모집 안내</span>
+<a class="recruitment-notice" href="{{ '/join/' | relative_url }}" aria-label="연구실 지원안내 상세 보기">
+  <span class="recruitment-notice-label">Notice</span>
   <span class="recruitment-notice-copy">
     음성 및 오디오 인공지능, 대화인공지능 및 사회지능, 음성합성 및 가창인공지능,
     제조업을 위한 인공지능에 관심 있는 학부, 석사, 그리고 박사 과정 학생들의 상담을 진행 중입니다.
