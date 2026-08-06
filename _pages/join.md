@@ -1,11 +1,11 @@
 ---
 layout: minimal
 permalink: /join/
-title: 연구실 지원안내
+title: 학부연구생 및 석박사 프로그램 운영안내
 nav: false
 ---
 
-# 연구실 지원안내
+# 학부연구생 및 석박사 프로그램 운영안내
 
 <div class="intro">
   <p>

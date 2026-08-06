@@ -26,7 +26,7 @@ nav_order: 1
   </p>
 </div>
 
-<a class="recruitment-notice" href="{{ '/join/' | relative_url }}" aria-label="연구실 지원안내 상세 보기">
+<a class="recruitment-notice" href="{{ '/join/' | relative_url }}" aria-label="학부연구생 및 석박사 프로그램 운영안내 상세 보기">
   <span class="recruitment-notice-label">Notice</span>
   <span class="recruitment-notice-copy">
     음성 및 오디오 인공지능, 대화인공지능 및 사회지능, 음성합성 및 가창인공지능,
