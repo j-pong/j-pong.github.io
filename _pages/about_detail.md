@@ -20,6 +20,7 @@ nav_order: 2
     applications for <strong>time-varying data</strong> such as speech, audio, video,
     text, and time series, with an emphasis on <strong>dynamical systems</strong>,
     <strong>probability</strong>, and <strong>optimization</strong>.
+    He has also built large-scale AI research infrastructure to support these research activities.
   </p>
 </div>
 
