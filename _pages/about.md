@@ -30,7 +30,7 @@ nav_order: 1
 <a class="recruitment-notice" href="{{ '/join/' | relative_url }}" aria-label="학부연구생 및 석박사 프로그램 운영안내 상세 보기">
   <span class="recruitment-notice-label">Notice</span>
   <span class="recruitment-notice-copy">
-    머신러닝, 음성 및 신호처리에 관심 있는 학부, 석사, 그리고 박사 과정 학생들의 상담을 진행 중입니다.
+    Machine learning과 speech 및 signal processing에 관심있는 학생(학부, 석사 및 박사 과정)의 상담을 진행 중입니다.
   </span>
   <span class="recruitment-notice-more">상세 안내 보기 →</span>
 </a>

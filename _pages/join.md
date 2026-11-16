@@ -9,7 +9,7 @@ nav: false
 
 <div class="intro">
   <p>
-    머신러닝, 음성 및 신호처리에 관심 있는 학부(3학년 이상), 석사, 그리고 박사 과정 학생분들의 상담 요청을 받고 있습니다.
+    Machine learning과 speech 및 signal processing에 관심있는 학생(학부 3학년 이상, 석사 및 박사 과정)의 상담 요청을 받고 있습니다.
     이력서와 함께 연구 관심사를 간략하게 기술하여
     <a href="mailto:ljh93ljh@hufs.ac.kr">ljh93ljh@hufs.ac.kr</a>로 연락해 주세요.
   </p>
@@ -17,7 +17,7 @@ nav: false
 
 ## 연구 및 프로젝트
 
-연구 및 프로젝트는 머신러닝, 음성 및 신호처리를 중심으로 진행합니다.
+연구 및 프로젝트는 Machine learning, speech 및 signal processing을 중심으로 진행합니다.
 구체적인 연구 주제와 역할은 상담 미팅을 통해 함께 구체화합니다.
 
 ## 운영 및 지원 체계
