@@ -14,7 +14,10 @@ nav_order: 2
     Jae-Hong Lee received the B.S. degree in electronic engineering from
     Hanyang University, Seoul, South Korea, in 2017, and the M.S. and Ph.D.
     degrees in electronics engineering from Hanyang University, Seoul, South
-    Korea, in 2024. He is currently an Assistant Professor in the Division of
+    Korea, in 2024. During his graduate studies, he conducted research in the
+    <a href="http://asmllab.hanyang.ac.kr/">ASML Lab</a> at Hanyang University
+    under the supervision of Professor Joon-Hyuk Chang.
+    He is currently an Assistant Professor in the Division of
     Language &amp; AI at Hankuk University of Foreign Studies, Seoul, South Korea.
     His research interests include <strong>signal processing and machine learning</strong>
     applications for <strong>time-varying data</strong> such as speech, audio, video,
